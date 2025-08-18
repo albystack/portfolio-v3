@@ -15,9 +15,8 @@ const fontSans = Ubuntu({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(personalData.url),
   title: {
-    default: "Alberto Rescigno | Studnet @ Durham University",
+    default: "Alberto Rescigno | Student @ Durham University",
     template: `%s | ${personalData.name}`,
   },
   description: personalData.description,

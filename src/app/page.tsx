@@ -25,7 +25,7 @@ export default function Page() {
       <Projects delay={BLUR_FADE_DELAY * 9} />
 
       <Skills delay={BLUR_FADE_DELAY * 11} />
-      
+
       <Documents delay={BLUR_FADE_DELAY * 13} />
 
       <Contact delay={BLUR_FADE_DELAY * 15} />

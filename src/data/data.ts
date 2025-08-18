@@ -7,9 +7,8 @@ export const personalData = {
   url: "https://www.arescigno.dev/",
   location: "Durham, UK",
   locationLink: "https://www.google.com/maps/place/durham",
-  description:
-    "MSci Maths and Computer Science @ Durham University",
-    summary:
+  description: "MSci Maths and Computer Science @ Durham University",
+  summary:
     "Ambitious and driven student with a passion for mathematics, technology, and finance. Currently studying Mathematics & Computer Science at Durham University, where I focus on quantitative methods, algorithmic thinking, and software development. My academic interests lie in quantitative research, AI/ML, and high-performance software engineering, with a particular focus on how mathematical modelling can be applied to financial markets and decision-making. \n\nBeyond academics, I am a national-level swimmer who has competed at British Nationals and World Trials, experiences that have taught me resilience, discipline, and the importance of consistent improvement. I am also a competitive chess player, constantly refining my problem-solving and strategic skills. Outside of sport and study, I actively explore projects in coding, trading, and fintech—building automation tools, data-driven applications, and financial models. \n\nCurrently, I am developing a quant research project in Python that applies backtesting, statistical arbitrage, and algorithmic trading strategies to real market data. This blends my mathematical background with my programming expertise, allowing me to explore the real-world challenges of quantitative finance while strengthening my technical and analytical capabilities.",
   avatarUrl: "/me.png",
 } as const;
@@ -131,7 +130,7 @@ export const experiencesData = [
     href: "https://panoraxis.tech",
     location: "Remote",
     title: "Co-Founder | AI & Automation Agency",
-    logoUrl: "/panoraxis.png",
+    logoUrl: "/panoraxis-logo.png",
     start: "2024",
     end: "Present",
     description: [
@@ -212,6 +211,13 @@ export const projectsData = [
     description:
       "Coursework project focused on maze generation and pathfinding algorithms. Implemented multiple algorithms (DFS, BFS, A*, Dijkstra) to compare efficiency and visualise paths. Built in Python with a strong emphasis on algorithm design, optimisation, and evaluation for A* grade criteria.",
     technologies: ["Python", "Algorithms", "Data Structures"],
+    links: [
+      {
+        type: "Github",
+        href: "https://github.com/albertorescigno/nea-maze-pathfinding",
+        icon: "github",
+      },
+    ],
     image: "/nea-maze.png",
     video: "",
     imageWidth: 600,
@@ -239,7 +245,13 @@ export const projectsData = [
     description:
       "Full-stack React Native application that uses machine learning models to estimate a user’s carbon footprint based on lifestyle inputs. Integrated a Python backend for model training and REST API endpoints. Designed with modern UI for mobile usability and educational impact.",
     technologies: ["React Native", "Python", "Machine Learning", "REST API"],
-    
+    links: [
+      {
+        type: "Github",
+        href: "https://github.com/albertorescigno/carbon-footprint-app",
+        icon: "github",
+      },
+    ],
     image: "/carbon-app.png",
     video: "",
     imageWidth: 550,
@@ -253,7 +265,13 @@ export const projectsData = [
     description:
       "Personal portfolio website designed as an interactive showcase of projects, skills, and experiences. Built with Next.js, React, and TailwindCSS, featuring a clean and professional UI with AI-powered chatbot functionality for recruiters to ask questions directly.",
     technologies: ["Next.js", "React", "TypeScript", "TailwindCSS"],
-    
+    links: [
+      {
+        type: "Demo",
+        href: "https://arescigno.me",
+        icon: "globe",
+      },
+    ],
     image: "/portfolio.png",
     video: "",
     imageWidth: 500,
@@ -267,7 +285,13 @@ export const projectsData = [
     description:
       "Co-developed and deployed the official website for Panoraxis, an AI and automation agency. Built with Next.js and TailwindCSS, with a focus on sleek design, branding, and client conversion. Integrated demos, pricing, and service explanations tailored for SMEs.",
     technologies: ["Next.js", "React", "TailwindCSS"],
-    
+    links: [
+      {
+        type: "Demo",
+        href: "https://panoraxis.tech",
+        icon: "globe",
+      },
+    ],
     image: "/panoraxis-website.png",
     video: "",
     imageWidth: 500,
