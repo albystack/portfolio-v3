@@ -182,9 +182,7 @@ export const educationData = [
     start: "Sep 2025",
     end: "Present",
     description: [
-      "Coursework focused on mathematics, algorithms, machine learning, and quantitative finance applications.",
-      "Exploring AI/ML, financial mathematics, and computational modelling as potential specialisations.",
-      "Active in finance, technology, and entrepreneurship societies.",
+      "Part of Grey College",
     ],
   },
   {
@@ -197,7 +195,7 @@ export const educationData = [
     description: [
       "A-Levels: Mathematics (AQA), Further Mathematics (AQA), Physics (OCR), Computer Science (AQA).",
       "Extended Project Qualification (EPQ).",
-      "Achievements: National-level swimmer (200m Butterfly – English Nationals, World Trials), competitive chess player, active in STEM projects.",
+      "Achievements: Competed at World Trials in London, competitive chess player, active in STEM projects.",
     ],
   },
 ] as const;
@@ -205,7 +203,7 @@ export const educationData = [
 export const projectsData = [
   {
     title: "AQA A-Level Computer Science NEA",
-    href: "https://github.com/albertorescigno/nea-maze-pathfinding", // replace with real link if public
+    href: "https://github.com/albystack/cs-nea", 
     dates: "2024–2025",
     active: true,
     description:
@@ -214,7 +212,7 @@ export const projectsData = [
     links: [
       {
         type: "Github",
-        href: "https://github.com/albertorescigno/nea-maze-pathfinding",
+        href: "https://github.com/albystack/cs-nea",
         icon: "github",
       },
     ],
@@ -239,7 +237,7 @@ export const projectsData = [
   },
   {
     title: "Carbon Footprint Estimator",
-    href: "https://github.com/albertorescigno/carbon-footprint-app", // replace if public
+    href: "https://github.com/albystack/epq-code", 
     dates: "2024",
     active: true,
     description:
@@ -248,7 +246,7 @@ export const projectsData = [
     links: [
       {
         type: "Github",
-        href: "https://github.com/albertorescigno/carbon-footprint-app",
+        href: "https://github.com/albystack/epq-code",
         icon: "github",
       },
     ],
@@ -259,7 +257,7 @@ export const projectsData = [
   },
   {
     title: "Portfolio Website",
-    href: "https://arescigno.me",
+    href: "https://arescigno.dev",
     dates: "2025",
     active: true,
     description:
@@ -268,7 +266,7 @@ export const projectsData = [
     links: [
       {
         type: "Demo",
-        href: "https://arescigno.me",
+        href: "https://arescigno.dev:",
         icon: "globe",
       },
     ],
