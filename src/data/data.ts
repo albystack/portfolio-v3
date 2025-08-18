@@ -181,9 +181,7 @@ export const educationData = [
     logoUrl: "/durham.png",
     start: "Sep 2025",
     end: "Present",
-    description: [
-      "Part of Grey College",
-    ],
+    description: ["Part of Grey College"],
   },
   {
     school: "Ellesmere College",
@@ -203,7 +201,7 @@ export const educationData = [
 export const projectsData = [
   {
     title: "AQA A-Level Computer Science NEA",
-    href: "https://github.com/albystack/cs-nea", 
+    href: "https://github.com/albystack/cs-nea",
     dates: "2024–2025",
     active: true,
     description:
@@ -237,7 +235,7 @@ export const projectsData = [
   },
   {
     title: "Carbon Footprint Estimator",
-    href: "https://github.com/albystack/epq-code", 
+    href: "https://github.com/albystack/epq-code",
     dates: "2024",
     active: true,
     description:
